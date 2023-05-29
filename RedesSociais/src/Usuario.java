@@ -17,22 +17,22 @@ public class Usuario
                 //verificando de qual classe pertence o tipo rede social
                 if (redeSocial[i] instanceof Facebook)
                 {
-                    System.out.println("---Usuário cadastrado no Facebook--");
+                    System.out.println("cadastrado no Facebook");
                     break;
                 }
                 else if (redeSocial[i] instanceof Instagram)
                 {
-                    System.out.println("---Usuário cadastrado no Instagram--");
+                    System.out.println("cadastrado no Instagram");
                     break;
                 }
                 else if (redeSocial[i] instanceof GooglePlus)
                 {
-                    System.out.println("---Usuário cadastrado no GooglePlus--");
+                    System.out.println("cadastrado no GooglePlus");
                     break;
                 }
                 else if (redeSocial[i] instanceof Twitter)
                 {
-                    System.out.println("---Usuário cadastrado no Twitter--");
+                    System.out.println("cadastrado no Twitter");
                     break;
                 }
 
