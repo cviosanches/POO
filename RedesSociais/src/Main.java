@@ -4,24 +4,24 @@ public class Main {
 
             //Criando usuário
             Usuario user = new Usuario();
-            user.setNome("caiosanches");
-            user.setEmail("caio456caio@gmail.com");
+            user.setNome("joaozinho");
+            user.setEmail("joaozinho@gmail.com");
 
             //Criando redes sociais
             Facebook fb = new Facebook();
-            fb.senha = "homemaranha123";
+            fb.senha = "password";
             fb.numAmigos = 3000;
 
             GooglePlus gg = new GooglePlus();
-            gg.senha = "caiopanqueca";
+            gg.senha = "password";
             gg.numAmigos = 10;
 
             Twitter tt = new Twitter();
-            tt.senha = "homempanqueca";
+            tt.senha = "password";
             tt.numAmigos = 100;
 
             Instagram insta = new Instagram();
-            insta.senha = "caiotaduro";
+            insta.senha = "password";
             insta.numAmigos = 2500;
 
             //Setando o usuário cadastrado como o usuário das redes sociais
@@ -41,7 +41,7 @@ public class Main {
                         auxfb.compartilhar();
                         auxfb.postarFoto();
                         auxfb.fazStreaming();
-                        System.out.println("--------------------------");
+                        System.out.println(" ");
 
                     }
                     else if (user.redeSocial[i] instanceof GooglePlus)
@@ -51,7 +51,7 @@ public class Main {
                         auxgp.compartilhar();
                         auxgp.fazStreaming();
                         auxgp.curtirPublicacao();
-                        System.out.println("---------------");
+                        System.out.println(" ");
                     }
 
                     else if (user.redeSocial[i] instanceof Twitter)
@@ -61,7 +61,7 @@ public class Main {
                         auxtt.compartilhar();
                         auxtt.curtirPublicacao();
                         auxtt.postarComentario();
-                        System.out.println("---------------");
+                        System.out.println(" ");
                     }
 
                     else if (user.redeSocial[i] instanceof Instagram)
@@ -71,7 +71,7 @@ public class Main {
                         auxinsta.postarComentario();
                         auxinsta.postarVideo();
                         auxinsta.postarFoto();
-                        System.out.println("---------------");
+                        System.out.println(" ");
                     }
                 }
             }
