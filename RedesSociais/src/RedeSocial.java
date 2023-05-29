@@ -8,7 +8,7 @@ public abstract class RedeSocial {
     public  abstract void postarComentario();
 
     public void curtirPublicacao(){
-        System.out.println("O usuário curtiu uma publicação!");
+        System.out.println("curtiu uma publicação!");
     }
 
 }
